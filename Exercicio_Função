@@ -1,0 +1,7 @@
+# converte Celsius em Fareheint
+
+def conversor(int):
+  F = (9 * int + 160) / 5
+  print(F)
+
+conversor(20)

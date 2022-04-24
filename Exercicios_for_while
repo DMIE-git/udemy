@@ -1,0 +1,34 @@
+# 23/04/2022
+# Exercicios FOR e WHILE
+
+from socket import NI_NUMERICHOST
+
+#Ler 5 notas de informar a Média
+#Utilizando o FOR
+
+nota = 0
+media = 0 
+for i in  range(0,5):
+    i = int(input("Informe a Nota : "))
+    nota = nota + i
+media = nota / 5
+print(media)
+
+# Tabuada do 3
+# Utilizando o FOR 
+tabuada = 0
+for numero in range(1,11):
+    tabuada = 3 * numero
+    print("3 x",numero,"=",tabuada)
+print("----Fim FOR-----")    
+
+
+# Utilizando o WHILE 
+tabuada = 0
+for numero in range(1,11):
+    tabuada = 3 * numero
+    print("3 x",numero,"=",tabuada)
+    tabuada = tabuada + 1 
+print("----Fim WHILE-----")     
+
+
